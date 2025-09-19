@@ -2,13 +2,13 @@
 
 In this exercise, you will define your delivery pipeline in SAP Continuous Integration and Delivery service, create a job and configure the release step and transport landscape in SAP Cloud Transport Management Service.
 
-# Exercise 1.1 - Open the Continuous Integration and Delivery Service
+# Exercise 1.0 - Open the Continuous Integration and Delivery Service
 
-1. In your BTP subaccount named with **XP266_CENTRAl** in the SAP BTP cockpit, go to **Services -> Instances and Subscription**.
+1. In your SAP BTP subaccount named with **XP266_CENTRAl**, go to **Services -> Instances and Subscription**.
 2. In the **Subscriptions** overview, choose **Continuous Integration & Delivery**. Now, the user interface of SAP Continuous Integration and Delivery opens.
     <br>![](../ex1/images/sub_cicd.png)
 
-## Exercise 1.0 - Add Your Repository in SAP CI CD Service
+## Exercise 1.1 - Add Your Repository in SAP CI CD Service
 
 Connect SAP Continuous Integration and Delivery with the repository in which your sources reside.
 
@@ -16,7 +16,7 @@ Connect SAP Continuous Integration and Delivery with the repository in which you
     <br>![](../ex1/images/repo_cicd.png)
 
 1. In the Add Repository column view, add a **name** e.g. `teched-repo`
-   
+
 2. In GitHub, copy the HTTPS clone URL of the repository you just created in [Exercise 0](../ex0#exercicse-01---create-a-copy-of-this-repository) 
     <br>![](../ex1/images/copy_git_repo.png)
 
@@ -25,7 +25,7 @@ Connect SAP Continuous Integration and Delivery with the repository in which you
 
 4. Don't close the repo-creation yet. In the next step we will add a GitHub webhook
 
-## Exercise 1.1 - Create a Webhook
+## Exercise 1.2 - Create a Webhook
 
 You can configure a webhook for your repository, which automatically triggers a build of your job once there is a change commit in the source code repository.
 
@@ -55,7 +55,7 @@ You can configure a webhook for your repository, which automatically triggers a 
 11. Click on **Add webhook**.
 <br>![](../ex1/images/add_webhook_github.png)
 
-## Exercise 1.2 - Create a Pipeline Job
+## Exercise 1.3 - Create a Pipeline Job
 
 1. In SAP Continuous Integration and Delivery, go to the Jobs tab and click on + (Create job).
 2. In the General Information section of the Create Job pane, enter the following values:
@@ -70,7 +70,7 @@ You can configure a webhook for your repository, which automatically triggers a 
 3. In the Build section, Keep MTA as Build Tool and choose `Java 21 Node 22` as Build Tool Version.
     <br>![](/exercises/ex1/images/job_build_stage.png)
 
-## Exercise 1.3 - Enable the Release Stage
+## Exercise 1.4 - Configure the Release Stage
 
 To enable the **Release** stage in your SAP Continuous Integration and Delivery job, you need the name of the node for the upload to SAP Cloud Transport Management as well as a service key to authenticate your pipeline against it. We will provide these values to you.
 
@@ -92,7 +92,7 @@ To enable the **Release** stage in your SAP Continuous Integration and Delivery 
 
 You've successfully created your first CI/CD job with the Build stage and release enabled. Changes committed to your GitHub repository will be automatically picked up by your delivery pipeline. However, before transport request is received by _SAP Cloud Transport Management service_, you need to create your transport landscape in the following exercise.
 
-## Exercise 1.4 - Create Transport Landscape in SAP Cloud Transport Management Service
+## Exercise 1.5 - Create Transport Landscape in SAP Cloud Transport Management Service
 
 1. Open the UI of SAP Cloud Transport Management Service by entering the **XP266_CENTRAL** subaccount in which you have subscribed to the service and open the Instances and Subscriptions view.
 
@@ -110,7 +110,7 @@ You've successfully created your first CI/CD job with the Build stage and releas
    2. Optionally enter a **Description**, for example `Development node`.
    3. **Select** the **Allow Upload to Node** checkbox.
    4. Leave the **Forward Mode** set to `Pre-Import`.
-   5.  As this is our initial entry note, tick the **Virtual Node** checkbox.
+   5.  As this is our initial entry note, select the **Virtual Node** checkbox.
    6.  Choose **OK**.
     <br>![](/exercises/ex1/images/ctms_dev_node.png)
 

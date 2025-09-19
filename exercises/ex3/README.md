@@ -1,4 +1,4 @@
-# Develop your pro-code application
+# Transport your pro-code application
 
 In this exercise, we will create a new development project in SAP Build based on the Git Repository created in [Exercise 0](../ex0#exercicse-01---create-a-copy-of-this-repository). We will add small code change release the changes to our Git Repository.
 
@@ -9,7 +9,7 @@ In this exercise, we will create a new development project in SAP Build based on
        <br>![](../ex3/images/btp_buildcode.png)
 3. The SAP Build Lobby will open. To establish a new development project, click on **Create** > **Clone from Git**.
         <br>![](../ex3/images/buildcode_lobby.png)
-4. In Create project popup, choose **SAP Fiori Application** and confirm with **Next**.
+4. In Create project popup, choose **SAP Fiori application** and confirm with **Next**.
         <br>![](../ex3/images/buildcode_createproject_type.png)
 5. Since this project is based on the Git repository copied in [Exercise 0](../ex0#exercicse-01---create-a-copy-of-this-repository), provide the corresponding repository URL, which can be retrieved from Git.
         <br>![](../ex3/images/git_copyurl.png)
@@ -18,9 +18,9 @@ In this exercise, we will create a new development project in SAP Build based on
         <br>![](../ex3/images/buildcode_createproject_name.png)
 8. The **Business Applicaiton Studio** will open in a new browser tab, preparing your development environment.
 
-## Exercise 3.1 - Add addtional sample data to your Application and push your changes to GitHub
+## Exercise 3.1 - Add additional sample data to your application
 
-Now that your development project has been added to Business Application, you can start development.
+Now that your SAP Build project has been created, you can start development.
 
 1. In your project **CAP-BOOKSHOP_WDI5**, go to **db** > **data** > **sap.capire.bookshop-Books.csv**
         <br>![](../ex3/images/bas_add_content.png)

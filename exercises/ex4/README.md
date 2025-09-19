@@ -11,7 +11,7 @@ In this exercise, you will create a new transport request using **SAP Content Ag
 <br>![](../ex4/images/mobile_services_alternate_idp.png)
 
 4. In the Mobile Services Cockpit you will find an already running Mobile Services Sample application ``XP266DEVMS``. Add a simple change to this application in next step.
-On the bottom right, click on **Add Feature**. 
+On the bottom right, click on **Add Feature**.
 <br>![](../ex4/images/mobile_services_app_add_feature.png)
 1. In the popup choose any feature from the list e.g. ``Push Notifications`` and confirm with **OK**.
 <br>![](../ex4/images/mobile_services_app_pn.png)
@@ -31,14 +31,13 @@ In the next step, you will bundle this application in a new transport request us
 4. In the drop-down, choose **TransportManagementService** as Destination and click **Refresh Connection**. The status should be **Connected**.
 <br>![](../ex4/images/cas_transportmanagement.png)
 
-
-## Exercise 4.3 - Create and send a Transport Request in SAP Content Agent Service UI
+## Exercise 4.2 - Create and export a Transport Request in SAP Content Agent Service UI
 
 In SAP Content Agent Service, you will now prepare a transport request containing development content provided by the SAP Mobile Services SDK.
 
 1. In SAP Content Agent Service UI, go to **Export**.
         <br>![](../ex4/images/cas_export.png)
-2. Tick XP266DEVMS and XP266DEVMSRES of Type Mobile application.
+2. Select ``XP266DEVMS`` and ``XP266DEVMSRES`` of Type Mobile application.
         <br>![](../ex4/images/cas_transportrequest_content.png)
 3. Go to **Step 2**
 4. As Export Mode leave SAP Cloud Transport Management
