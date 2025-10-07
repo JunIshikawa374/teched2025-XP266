@@ -35,7 +35,7 @@ You can configure a webhook for your repository, which automatically triggers a 
 2. In the new popup, click the **+** button to create a new webhook credential.
     <br>![](../ex1/images/create_webhook_credential.png)
 
-3. Another Create Credential popup opens. Here, choose a name e.g. `webhook_credential`.
+3. Another Create Credential popup opens. Here, choose a name e.g. `webhook-credential`.
 4. Generate a secret by clicking the **Generate** button.
 5. **Copy** and note down this secret, you will need it in GitHub and click the **create** button.
     <br>![](../ex1/images/create_credential.png)
