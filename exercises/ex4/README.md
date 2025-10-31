@@ -34,7 +34,7 @@ In the previous you have opened your **Mobile Development Kit Application** proj
 4. A new **Mobile Application tab** opens with the two sample Mobile Applications visible.
 5. Choose **XP266DEVMS** and click **Mobile Services** to open the app.
         <br>![](../ex4/images/bas_mobile.png)
-6. You can now apply a simple change to the application (Steps 7. - 10. are optional)
+6. You can now apply a simple change to the application (Steps 7. - 10. are optional).
 7. On the bottom right, click on **Add Feature**.
         <br>![](../ex4/images/mobile_services_app_add_feature.png)
 8. In the popup choose any feature from the list e.g. ``Push Notifications`` and confirm with **OK**.
@@ -63,10 +63,10 @@ In SAP Content Agent Service, you will now prepare a transport request containin
         <br>![](../ex4/images/cas_export.png)
 2. Select ``XP266DEVMS`` and ``XP266DEVMSRES`` of Type Mobile application.
         <br>![](../ex4/images/cas_transportrequest_content.png)
-3. Go to **Step 2**
-4. As Export Mode leave SAP Cloud Transport Management
+3. Go to **Step 2**.
+4. As Export Mode leave SAP Cloud Transport Management.
 5. Choose ``DEV`` as your Source Node.
-6. Enter a description e.g. ``My low-code application``
+6. Enter a description e.g. ``My low-code application``.
 7. Continue with **Step 3** and  **Step 4** to trigger **export** to SAP Cloud Transport Management Service.
         <br>![](../ex4/images/cas_transportrequest_submit.png)
 
