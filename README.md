@@ -40,7 +40,7 @@ To complete the exercises in this repository, please make sure that you meet the
   * [Exercise 3.1 - Add additional sample data to your application](exercises/ex3#exercise-31---add-additional-sample-data-to-your-application)
   * [Exercise 3.2 - Release your Changes to GitHub](exercises/ex3#exercise-32---release-your-changes-to-github)
 
-* #### [Exercise 4 - Transport your low-code application](exercises/ex4#transport-your-low-code-application)
+* #### [Exercise 4 - Transport your low-code application (Optional)](exercises/ex4#transport-your-low-code-application-optional)
   * [Exercise 4.0 - Create a new SAP Build Mobile Project in SAP Build](exercises/ex4#exercise-40---create-a-ne-sap-build-mobile-project-in-sap-build)
   * [Exercise 4.1 - Access Mobile Services and add a new Feature](exercises/ex4#exercise-41---access-mobile-services-and-add-a-new-feature)
   * [Exercise 4.2 - Setup SAP Content Agent Service](exercises/ex4#exercise-42---setup-sap-content-agent-service)

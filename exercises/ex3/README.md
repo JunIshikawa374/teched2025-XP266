@@ -53,4 +53,4 @@ Now that we have added some changes, the next steps will be to release them to o
 
 You've now created your first development project in SAP Build, established code changes and released them to Git.
 
-Continue to - [Transport your low-code application](../ex4/README.md).
+Continue to - [Transport your low-code application (Optional)](../ex4/README.md) or skip this part and continue to - [Verify all Release Steps](../ex5/README.md)

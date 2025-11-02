@@ -1,6 +1,6 @@
-# Transport your low-code application
+# Transport your low-code application (Optional)
 
-In this exercise, you will create a new transport request using **SAP Content Agent Service** and **SAP Build** together with **SAP Mobile Services**.
+In this optional exercise, you will create a new transport request using **SAP Content Agent Service** and **SAP Build** together with **SAP Mobile Services**.
 
 ## Exercise 4.0 - Create a new SAP Build Mobile Project in SAP Build
 
